@@ -1,0 +1,27 @@
+body{
+	font-family: Arila, sans- serif;
+	background-color: #BB348E;
+}
+
+h1{
+	text-align: center;
+	background-color: #E50144;
+}
+
+img{
+	border-style: solid;
+}
+
+h2{
+	text-align: center;
+	background-color: #48C9AE;
+}
+
+h3{
+	text-align: center;
+	background-color: #0025A9;
+}
+
+div{
+	text-align: center;
+}

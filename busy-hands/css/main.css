@@ -1,0 +1,101 @@
+body{
+  color: #333333;
+  background-image: url(../images/bg.png);
+}
+
+nav{
+  background-color: black;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+nav a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 20 20;
+}
+
+nav a:hover{
+  background-color: #96DDFC;
+}
+
+img{
+}
+
+#title{
+  float: left;
+}
+
+#social{
+  float: right;
+}
+
+.readmore a{
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+.readmore a:hover{
+  text-decoration: underline;
+}
+
+.homeboximage{
+  border: 6px solid #E2E2E2;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;  
+}
+
+.Home{
+  margin-left: 30px;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#quote{
+  float: left;
+  border: 2px inset gray;
+}
+
+#blurb{
+  float: right;
+}
+
+.homeboxes{
+  width: 290px;
+  margin: 10px;
+  float: left;
+}
+
+h3{
+  font-weight: normal;
+}
+
+h4{
+  font-weight: normal;
+}
+
+footer{
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+  width: 100%;
+  padding: 0 10 0 10;
+}
+
+.bottomcollumn{
+  width: 290px;
+  margin: 10px;
+  float: left;
+}

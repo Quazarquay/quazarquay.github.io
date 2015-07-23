@@ -4,6 +4,46 @@ h1{
 	font-family: "Lato";
 }
 
+h2{
+	font-weight: normal;
+	font-family: "Lato";
+}
+
+h3{
+	font-weight: normal;
+	font-family: "Lato";
+}
+
+h3 a{
+	color: #dddddd;
+}
+
+h3 a:hover{
+	color: #000000;
+}
+
+h5{
+	margin-top: 30px;
+	border-top: solid #dddddd 2px;
+	margin-bottom: 30px;
+	width: 720px;
+}
+
+p{
+	color: #444444;
+	font-family: "Lato";
+}
+
+
+a{
+	color: #DD0000;
+	font-family: "Lato";
+}
+
+a:hover{
+	color: #aa0000;
+}
+
 .redlink{
 	color: #DD0000;
 	font-family: "Lato";
@@ -17,25 +57,10 @@ h1{
 	width: 720px;
 }
 
-a{
-	color: #DD0000;
-	font-family: "Lato";
-}
-
-a:hover{
-	color: #aa0000;
-}
-
 #container{
 	padding: 54px;
-
-
 }
 
-p{
-	color: #444444;
-	font-family: "Lato";
-}
 
 .graylinks{
 	color: #dddddd;
@@ -43,26 +68,9 @@ p{
 	padding-top: 15px;
 }
 
-h2{
-	font-weight: normal;
-	font-family: "Lato";
-}
-
-h3{
-	font-weight: normal;
-	font-family: "Lato";
-}
-
 #brooklynstreet{
 	padding-bottom: 10px;
 	border-bottom: solid #dddddd 2px;
-	width: 720px;
-}
-
-h5{
-	margin-top: 30px;
-	border-top: solid #dddddd 2px;
-	margin-bottom: 30px;
 	width: 720px;
 }
 

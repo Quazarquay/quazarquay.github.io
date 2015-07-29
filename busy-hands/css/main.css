@@ -65,11 +65,16 @@ img{
 
 #quote{
   float: left;
-  border: 2px inset gray;
+  width: 75%;
+
 }
 
 #blurb{
   float: right;
+}
+
+#blurbbox{
+  border: 2px inset gray;
 }
 
 .homeboxes{

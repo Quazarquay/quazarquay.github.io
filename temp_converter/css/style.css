@@ -1,0 +1,54 @@
+body{
+	background-image: url("http://www.rabne.tk/wp-content/uploads/2015/01/abstract-wallpapers-simple-abstract-background-wallpaper-33092.jpg");
+}
+
+#fahrtocel{
+	border-bottom: solid black 2px;
+}
+
+nav{
+	background-color: black;
+}
+
+nav a{
+	font-size: 20px;
+	color: #42B672;
+	text-decoration: none;
+}
+
+#home{
+	float: left;
+}
+
+#casa{
+	float: right;
+}
+
+h2{
+	font-size: 15px;
+}
+
+/*Temperature Converter*/
+
+#celtofahr{
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+}
+
+
+#turnIntoF{
+	color: red;
+}
+
+#turnIntoC{
+	color: blue;
+}
+
+#clearfix{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

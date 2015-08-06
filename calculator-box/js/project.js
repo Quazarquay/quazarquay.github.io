@@ -1,3 +1,14 @@
+/*The addition and subtracting clicks make the total say NaN, even when there were no issues left in the console.  What am I missing? Also when I tryed to make the colors work with jquery, I saved the jquery reference file and put it in the bottom of my HTML.  And using the code below from a previous exercise we did, while slightly changing it..
+
+$("a").click(function() {
+  $("p").css("color", $(this).html());
+});
+
+It wont change color and gives an error at the first line of the qjuery. Did I save the big jquery file wrong?
+*/
+
+
+
 //Addition//
 
 document.getElementById("a10").onclick = function() {

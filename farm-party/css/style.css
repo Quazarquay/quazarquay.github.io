@@ -1,0 +1,66 @@
+body {
+	background-image: url(../images/cloud_2.gif);
+}
+
+h1 {
+	text-align: center;
+}
+
+#grass {
+	height: 300px;
+	width: 100%;
+	background-color: green;
+	position: fixed;
+	top: 50%;
+	right: 0%;
+	z-index: -1;
+}
+
+#human {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+}
+
+#chicken {
+	position: fixed;
+	top: 70%;
+	left: 50%;
+
+}
+
+#cow41 {
+	position: fixed;
+	top: 50%;
+	left: 20%;
+}
+
+#cow1 {
+	position: fixed;
+	top: 20%;
+	left: 80%;
+}
+
+#dancingcow {
+	position: fixed;
+	top: 20%;
+	left: 30%;
+}
+
+#farm {
+	position: fixed;
+	top: 70%;
+	left: 90%;
+}
+
+#sun {
+	position: fixed;
+	top: 5%;
+	left: 20%;
+}
+
+#varken {
+	position: fixed;
+	top: 50%;
+	left: 70%;
+}

@@ -1,0 +1,161 @@
+body{
+	font-family: "Source Sans Pro";
+}
+
+#page-header{
+	background-color: black;
+	border-bottom: yellow 3px solid;
+	height: 60px;
+}
+
+#page-header:after{
+	overflow: none;
+}
+
+h1 a{
+color: yellow;
+font-family: "Merriweather", serif;
+font-size: 30px;
+padding: 10px;
+text-decoration: none;
+float: left;
+}
+
+#menu-toggle{
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+nav a{
+color: white;
+float: right;
+padding: 20px;
+text-decoration: none;
+}
+
+nav a:hover{
+	background-color: blue;
+}
+
+#taste {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#are {
+	text-decoration: underline;
+}
+
+h2{
+font-size: 30px;
+font-weight: bold;
+}
+
+h3{
+font-family: "Merriweather", serif;
+font-size: 25px;
+padding: 10px;
+}
+
+
+.button{
+font-family: "Oswald";
+background-color: #C6C6C6;
+}
+
+#profile{
+	margin: 30px;
+	background-color: yellow;
+	height: 50px;
+	width: 250px;
+	opacity: 1;
+}
+
+
+.tagline{
+font-family: "Merriweather", serif;
+font-size: 25px;
+background: #C6C6C6;
+text-align: center;
+padding: 20px;
+}
+
+.banner{
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	background-position: center;
+	height: 400px;
+
+}
+
+.blurb{
+	width:30%;
+	float: right;
+	margin: 50px 50px;
+	opacity: .8;
+	background-color: #ccc;
+	padding: 25px;
+}
+
+.callout{
+	width: 30%;
+	padding: 10px;
+	float: left;
+	border-right: solid 1px black;
+}
+
+
+.callouts{
+	overflow: hidden;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 30px;
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 880px) {
+	nav a{
+		padding: 1px;
+	}
+	.blurb{
+		float: none;
+	}
+	#profile{
+		height: 100px;
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	nav{
+
+		display: none;
+	}
+
+	h1 a{
+		font-size: 20px;
+	}
+	.callout{
+		float: none;
+		width: 100%;
+		border: none;
+		border-bottom: black solid 1px;
+	}
+
+	.blurb{
+		display: none;
+	}
+	#menu-toggle{
+		display: block;
+	}
+}

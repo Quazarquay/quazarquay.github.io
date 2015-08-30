@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://www.webweaver.nu/clipart/img/holidays/valentines/hearts/row-of-hearts.png");
+	background-image: url("http://vignette2.wikia.nocookie.net/zelda/images/8/85/Heart_Container_(Ocarina_of_Time_and_Majora's_Mask).png/revision/latest?cb=20091220215822");
 }
 
 nav{
@@ -31,4 +31,12 @@ h1{
 
 #about{
 	border-bottom: solid black 2px;
+	
+}
+
+section{
+	background-color: rgba(175, 80, 80, 0.5);
+	background: rgba(175, 80, 80, 0.5);
+	color: black;
+	padding: 20px;
 }
